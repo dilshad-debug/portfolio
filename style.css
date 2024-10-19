@@ -1,0 +1,468 @@
+body {
+  background-color: #e1e1e1;
+  background-size: 100%;
+  color: white;
+  font-family: "Ubuntu", sans-serif;
+  /* background-repeat: no-repeat; */
+}
+.header {
+  background-color: #212529;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.left {
+  /* border: 3px solid yellow; */
+  display: inline-block;
+  font-size: 45px;
+  padding: 2px 5px;
+  margin: 6px 50px;
+}
+.left span {
+  color: green;
+}
+.right {
+  /* border: 3px solid green; */
+  display: inline-block;
+  position: absolute;
+  right: 0px;
+  margin: 14px 0px;
+  padding: 8px 4px;
+}
+.navbar {
+  display: inline;
+}
+
+.navbar li {
+  display: inline;
+}
+.navbar li a {
+  color: white;
+  text-decoration: none;
+  margin: 7px 10px;
+  padding: 3px 3px;
+  font-size: 19px;
+}
+.navbar li a:hover {
+  /* text-shadow: 0px 0px 20px #0089ff; */
+  color: green;
+}
+/* span:hover{
+        text-shadow: 0px 0px 20px #0089ff;
+      } */
+.container {
+  display: flex;
+  justify-content: space-around;
+  padding: 35px 0 120px 0;
+  background-color: #212529;
+}
+.about {
+  /* border: 2px solid white; */
+  /* display: inline; */
+  /* float: left; */
+  width: 45%;
+  padding: 0;
+  /* margin: 50px 50px; */
+}
+
+.img {
+  /* border: 2px solid white;
+        margin: 50px 0px;
+        float: right; */
+  width: 45%;
+}
+.img img {
+  width: 350px;
+  height: 375px;
+  display: block;
+  margin: 0px 57px;
+  /* border: 3px solid red; */
+  border-radius: 50%;
+  /* box-shadow: 0px 0px 20px 8px #0089ff; */
+}
+.about span {
+  color: green;
+}
+.about h1 {
+  line-height: 30px;
+}
+.about h3 {
+  line-height: 10px;
+}
+.about h2 {
+  line-height: 5px;
+}
+.about p {
+  line-height: 30px;
+}
+.social i {
+  font-size: 30px;
+}
+.social a {
+  text-decoration: none;
+  color: white;
+}
+.hire button {
+  background-color: green;
+  display: inline;
+  color: white;
+  padding: 8px 25px;
+  border-radius: 20px;
+  margin: 8px 0px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Ubuntu", sans-serif;
+  cursor: pointer;
+}
+.social .insta_icon {
+  color: #0e76a8;
+}
+.social .insta_icon i:hover {
+  /* text-shadow: 0px 0px 16px #0089ff; */
+  color: green;
+}
+.social .linkedin_icon {
+  color: #0e76a8;
+}
+.social .linkedin_icon i:hover {
+  /* text-shadow: 0px 0px 16px #0089ff; */
+  color: green;
+}
+.social .fb_icon {
+  color: #4267b2;
+}
+.social .fb_icon i:hover {
+  /* text-shadow: 0px 0px 16px #0089ff; */
+  color: green;
+}
+.social .twitter_icon {
+  color: #00acee;
+}
+.social .twitter_icon i:hover {
+  /* text-shadow: 0px 0px 16px #0089ff; */
+  color: green;
+}
+
+.exp {
+  display: flex;
+  justify-content: space-around;
+  /* border: 2px solid green; */
+  height: 500px;
+  background-color: #e1e1e1;
+}
+.exp-img img {
+  width: 500px;
+  height: 450px;
+  object-fit: cover;
+}
+.exp-img {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  width: 50%;
+  /* border: 2px solid red; */
+}
+.exp-right {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 70%;
+  /* border: 2px solid black; */
+  padding: 0 0px 0px 35px;
+}
+/* .exp-right i {
+  font-size: 60px;
+  color: green;
+  display: inline;
+  border: 1px solid green;
+} */
+.fa-solid {
+  font-size: 60px;
+  color: green;
+  display: inline;
+  /* border: 1px solid green; */
+}
+/* .exp p {
+  color: green;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  text-transform: uppercase;
+} */
+.tag {
+  color: green;
+  padding: 0;
+  margin: 0;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+/* .exp h1 {
+  color: black;
+  padding: 0;
+  margin: 0px 0 25px 0;
+  font-size: 60px;
+} */
+.heading {
+  color: black;
+  padding: 0;
+  margin: 0px 0 25px 0;
+  font-size: 60px;
+}
+/* .exp h3 {
+  color: black;
+  padding: 0;
+  margin: 0;
+  font-size: 30px;
+} */
+.role {
+  color: black;
+  padding: 0;
+  margin: 0;
+  font-size: 30px;
+}
+.degree {
+  color: black;
+  padding: 0;
+  margin: 0;
+  font-size: 30px;
+}
+.exp1 {
+  display: grid;
+  grid-template-columns: 80px auto;
+}
+/* .exp-desc p {
+  font-size: 16px;
+  text-transform: none;
+  padding: 0;
+  color: black;
+  margin: 0 0 20px 0;
+} */
+.company {
+  font-size: 16px;
+  text-transform: none;
+  padding: 0;
+  color: black;
+  margin: 0 0 20px 0;
+}
+.institute {
+  font-size: 16px;
+  text-transform: none;
+  padding: 0;
+  color: black;
+  margin: 20px 0 0px 0;
+}
+.desc {
+  font-size: 16px;
+  text-transform: none;
+  padding: 0;
+  color: black;
+  margin: 0 0 20px 0;
+}
+.session {
+  color: gray;
+  font-size: 15px;
+}
+.education {
+  /* border: 2px solid black; */
+  /* height: 500px; */
+  display: flex;
+  justify-content: space-between;
+  /* align-items: center; */
+}
+.edu {
+  /* border: 2px solid green; */
+  width: 50%;
+}
+.ed-img {
+  width: 500px;
+  /* height: 500px; */
+}
+.ed-img img {
+  width: 500px;
+  height: 650px;
+  object-fit: cover;
+}
+.edu1 {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 0px 15px;
+}
+.skill-area {
+  /* border: 2px solid black; */
+  height: 500px;
+  display: flex;
+  justify-content: space-around;
+}
+.skills-bar {
+  padding: 25px 30px;
+}
+.skills-bar .bar {
+  margin: 25px 0;
+}
+.skills-bar .bar .info {
+  margin-bottom: 8px;
+  color: #212529;
+}
+.skills-bar .bar .info span {
+  font-size: 1rem;
+  font-weight: 500;
+}
+.skills-bar .bar .progress-line {
+  position: relative;
+  height: 10px;
+  width: 550px;
+  background: #212529;
+  border-radius: 10px;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animate 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+.bar .progress-line span {
+  position: absolute;
+  background: #25b79f;
+  height: 100%;
+  border-radius: 10px;
+  transform: scaleX(0);
+  transform-origin: left;
+  animation: animate 1s 1s cubic-bezier(1, 0, 0.5, 1) forwards;
+}
+
+.bar .progress-line span::before {
+  position: absolute;
+  content: "";
+  height: 0;
+  right: 0;
+  top: -12px;
+  width: 0;
+  border: 7px solid transparent;
+  border-bottom-width: 0px;
+  border-right-width: 0px;
+  border-top-style: #f0f0f0;
+  border-top-color: #f0f0f0;
+}
+.bar .progress-line span::after {
+  position: absolute;
+  right: 0;
+  top: -28px;
+  color: #07374a;
+  font-size: 12px;
+  font-weight: 700;
+  background: #f0f0f0;
+  padding: 1px 8px;
+  border-radius: 3px;
+}
+
+@keyframes animate {
+  100% {
+    transform: scaleX(1);
+  }
+}
+.progress-line .html {
+  width: 65%;
+}
+.progress-line .css {
+  width: 60%;
+}
+.progress-line .csharp {
+  width: 70%;
+}
+.progress-line .javascript {
+  width: 45%;
+}
+.progress-line .sql {
+  width: 80%;
+}
+.progress-line .wpf {
+  width: 75%;
+}
+.progress-line .html::after {
+  content: "65%";
+}
+.progress-line .css::after {
+  content: "60%";
+}
+.progress-line .csharp::after {
+  content: "70%";
+}
+.progress-line .javascript::after {
+  content: "45%";
+}
+.progress-line .sql::after {
+  content: "80%";
+}
+.progress-line .wpf::after {
+  content: "75%";
+}
+.skill-heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.project-area {
+  /* border: 2px solid green; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 70px;
+}
+.projects {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 0 15px;
+}
+.retail {
+  border: 2px solid gold;
+  width: 200px;
+  height: 200px;
+}
+.project-image {
+  width: 500px;
+  height: 650px;
+  object-fit: contain;
+}
+.technlogy {
+  font-size: 16px;
+  text-transform: none;
+  padding: 0;
+  color: black;
+  margin: 0px 0 15px 0;
+  font-weight: bold;
+}
+.proj-desc {
+  font-size: 16px;
+  text-transform: none;
+  padding: 0;
+  color: black;
+  margin: 0 0 20px 0;
+}
+.download-cv{
+  color: white;
+  text-decoration: none;
+  margin: 7px 10px;
+  padding: 3px 3px;
+  font-size: 19px;
+  /* border: 2px solid green; */
+}
+.download-cv:hover{
+  border: 1px solid green;
+  
+}
+@media screen and (max-width: 360px) {
+  .container{
+    flex-direction: column;
+  }
+  .exp{
+    flex-direction: column;
+  }
+  .education{
+    flex-direction: column;
+  }
+  .skill-area{
+    flex-direction: column;
+  }
+  .project-area{
+    flex-direction: column;
+  }
+}
